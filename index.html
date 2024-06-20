@@ -1,0 +1,615 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="My portfolio site" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+    />
+	<link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/png" href="favicon.ico" />
+    <title>Portfolio KSH</title>
+  </head>
+  <body>
+    <div class="body">
+      <!-- Header start -->
+      <header class="header flex flex--row">
+        <nav
+          class="header__nav flex flex--row flex--justify-space-between flex--align-items-center"
+          style="
+            background-color: rgb(23, 93, 96);
+            box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 10px;
+          "
+        >
+          <div class="header__nav__logo">
+            <a href="#hero">
+              <h2>K<span>yl</span>e S<span>ea</span>n H<span>ughe</span>s</h2>
+            </a>
+          </div>
+          <ul class="hamburger flex flex--row">
+            <li class="bar flex flex--row"></li>
+          </ul>
+          <ul class="header__nav__links flex flex--row flex--justify-start">
+            <li><a href="#hero">HOME</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+        <nav class="flex flex--column header__nav__mobile--closed">
+          <ul class="nav-list-mobile" id="nav-list-mobile">
+            <li><a href="#hero">HOME</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!-- Header end -->
+      <main class="main">
+        <!-- Hero start -->
+        <section id="hero" class="main__hero">
+          <video loop="" muted="" autoplay="">
+            <source src="./video/site-vid-2.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <div>
+            <h1 class="tracking-in-contract--bck-bottom">Hello, I'm Kyle</h1>
+            <p class="tracking-in-contract--bck-bottom">
+              Welcome to my portfolio
+            </p>
+            <a href="#projects" class="cta">PROJECTS</a>
+          </div>
+        </section>
+        <!-- Hero end -->
+        <!-- Skills start -->
+        <section id="skills" class="main__skills">
+          <h2 class="tracking-in-expand">
+            My <span class="purple-word">Skills</span>
+          </h2>
+          <ul>
+            <li>
+              <div>
+                <img src="./img/Skill-Logos/1.Html.png" alt="html" />
+              </div>
+              <h3>HTML</h3>
+              <p>
+                I have hands-on proficiency with HTML, ensuring its structure
+                follows SEO best practices and adheres closely to BEM
+                conventions.
+              </p>
+            </li>
+            <li>
+              <div>
+                <img src="./img/Skill-Logos/2.Css.png" alt="css" />
+              </div>
+              <h3>CSS</h3>
+              <p>
+                Areas such as selectors, properties, values, cascading,
+                specificity, box model, layouts (including Flexbox and CSS
+                Grid), media queries, and animations are within my realm of
+                expertise.
+              </p>
+            </li>
+            <li>
+              <div>
+                <img src="./img/Skill-Logos/3.Javascript.png" alt="js" />
+              </div>
+              <h3>Javascript</h3>
+              <p>
+                DOM manipulation, events and event listeners, asynchronous
+                programming, error handling, API consumption, and other related
+                areas are among my areas of expertise.
+              </p>
+            </li>
+            <li>
+              <div>
+                <img src="./img/Skill-Logos/4.React-removebg.png" alt="react" />
+              </div>
+              <h3>React</h3>
+              <p>
+                Components and props, state and lifecycle, methods, conditional
+                rendering, React Router, higher-order components, and other
+                related areas are areas where I possess expertise.
+              </p>
+            </li>
+            <li>
+              <div>
+                <img src="./img/Skill-Logos/10.bootstrap.png" alt="bootstrap" />
+              </div>
+              <h3>Bootstrap</h3>
+              <p>
+                I have hands-on experience in using Bootstrap. It speeds up my
+                workflow, and I do not need to think of class names as they are
+                already provided. This is one of my favorite CSS frameworks.
+              </p>
+            </li>
+            <li>
+              <div>
+                <img src="./img/Skill-Logos/11.tailwind.png" alt="tailwind" />
+              </div>
+              <h3>Tailwind CSS</h3>
+              <p>
+                I have recently started using Tailwind CSS in some of my
+                personal projects and have really come to enjoy using it.
+                Tailwind helps me keep my styling consistent.
+              </p>
+            </li>
+            <li>
+              <div>
+                <img src="./img/Skill-Logos/12.redux-rembg.png" alt="redux" />
+              </div>
+              <h3>Redux</h3>
+              <p>
+                I have hands-on experience with Redux. I like the fact that
+                there is one centralized store for all my state. This makes
+                tracking state easy via the Redux dev tools.
+              </p>
+            </li>
+            <li>
+              <div>
+                <img src="./img/Skill-Logos/13.nodejs.png" alt="node" />
+              </div>
+              <h3>Node js</h3>
+              <p>
+                I enjoy using Node.js to spin up web servers with Express. I
+                have also built many backend solutions with Node.js, both in a
+                professional capacity and on personal projects.
+              </p>
+            </li>
+            <li>
+              <div>
+                <img src="./img/Skill-Logos/14.postmanb4.svg" alt="postman" />
+              </div>
+              <h3>Postman</h3>
+              <p>
+                I always use Postman as a go-to for testing my Express APIs
+                before implementing them client-side. It is very helpful when
+                trying to visualize how the client-side will work eventually.
+              </p>
+            </li>
+            <li>
+              <div>
+                <img src="./img/Skill-Logos/15.mongob4-rem.png" alt="mongodb" />
+              </div>
+              <h3>Mongo DB</h3>
+              <p>
+                I am well versed in performing CRUD operations using MongoDB.
+                Mongoose is the ORM I use when implementing these operations. I
+                have been using MongoDB for the past two years.
+              </p>
+            </li>
+            <li>
+              <div>
+                <img
+                  src="./img/Skill-Logos/16.postgreb4-rem.png"
+                  alt="postgre"
+                />
+              </div>
+              <h3>PostgreSQL</h3>
+              <p>
+                I have used PostgreSQL on my last client project. I can also
+                perform CRUD operations using PostgreSQL. I have more experience
+                using it with the Sequelize ORM.
+              </p>
+            </li>
+            <li>
+              <div>
+                <img src="./img/Skill-Logos/17.ethb4-rem.png" alt="ethereum" />
+              </div>
+              <h3>Ethereum - Solidity</h3>
+              <p>
+                I can understand Solidity Smart Contracts, test them on Remix,
+                use Hardhat.js to deploy them, and Ethers.js or Web3.js to build
+                a UI on the client-side. I can also use Truffle.
+              </p>
+            </li>
+            <li>
+              <div class="aws--bg">
+                <img src="./img/Skill-Logos/18.awsb4-rem.png" alt="aws" />
+              </div>
+              <h3>AWS</h3>
+              <p>
+                I have hands-on experience with AWS Cognito for user management,
+                S3 for simple object storage, API Gateway, and Lambda for
+                serverless function deployment and API management.
+              </p>
+            </li>
+            <li>
+              <div>
+                <img src="./img/Skill-Logos/19.firebase.png" alt="firebase" />
+              </div>
+              <h3>Firebase</h3>
+              <p>
+                I can use Firebase for authentication and user management. I use
+                Firestore to perform CRUD operations. I have used Firebase in
+                one of my latest personal projects called Bookworks (still a
+                work in progress).
+              </p>
+            </li>
+          </ul>
+        </section>
+        <!-- Skills end -->
+        <!-- projects start -->
+        <section id="projects" class="main__project">
+          <h2 class="">My <span class="purple-word">Projects</span></h2>
+          <div
+            class="flex flex--column flex--align-center flex--justify-center"
+          >
+            <div id="project-1" class=".main__project--project__container">
+              <div
+                class="project--info flex flex--column flex--align-center flex--justify-center"
+              >
+                <h3 class="margin--top">FCC Pomodoro clock</h3>
+                <hr />
+                <p class="project--text">
+                  This is one of five React frontend projects I built for the
+                  Free Code Camp Frontend Libraries certification. These
+                  projects make use of class-based components and lifecycle
+                  methods. In addition to this project, I also built a Random
+                  Quote Machine, Markdown Converter, Drum Machine, and a
+                  Javascript Calculator.
+                </p>
+                <div class="flex flex--row flex--align-items-center">
+                  <a
+                    href="https://www.freecodecamp.org/Kyle-Sean-Hughes"
+                    target="_blank"
+                    ><i
+                      title="Free Code camp"
+                      class="fab fa-free-code-camp"
+                      aria-hidden="true"
+                    ></i
+                  ></a>
+                  <a
+                    href="https://codepen.io/Khughes1991/pen/wvrpXdx"
+                    target="_blank"
+                    ><i
+                      title="Codepen"
+                      class="fab fa-codepen"
+                      aria-hidden="true"
+                    ></i
+                  ></a>
+                </div>
+              </div>
+              <div class="project--img">
+                <img
+                  src="./img/project-images/6.FCC-Pomodoro-Clock-React.jpg"
+                  alt="project-1"
+                />
+              </div>
+            </div>
+            <div id="project-2" class=".main__project--project__container">
+              <div class="project--img">
+                <img src="./img/project-images/8.DecentraFund.jpg" alt="img" />
+              </div>
+              <div
+                class="project--info flex flex--column flex--align-center flex--justify-center"
+              >
+                <h3 class="margin--top">MERN Authentication</h3>
+                <hr />
+                <p class="project--text">
+                  This is a MERN project using a Creative Tim template. I
+                  challenged myself to work with existing code bases. The
+                  project only has MERN functionality on the Authentication
+                  forms. In addition, I added some UI form validation with RHF
+                  and Yup on the auth forms. Redux has been used for state
+                  management, and auth forms include unit tests implemented with
+                  React Testing Library.
+                </p>
+                <div class="flex flex--row flex--align-items-center">
+                  <a
+                    href="https://github.com/HughesSeanKyle/mern-frontend-deployment/tree/dev"
+                    target="_blank"
+                    ><i
+                      title="Github client side code"
+                      class="fab fa-github"
+                      aria-hidden="true"
+                    ></i
+                  ></a>
+                  <a
+                    href="https://github.com/HughesSeanKyle/mern-backend-deployment"
+                    target="_blank"
+                    ><i
+                      title="Github server side code"
+                      class="fa fa-server"
+                      aria-hidden="true"
+                    ></i
+                  ></a>
+                  <a
+                    href="https://gleaming-swan-1a32a1.netlify.app/"
+                    target="_blank"
+                    ><i
+                      title="Live site"
+                      class="fa fa-globe"
+                      aria-hidden="true"
+                    ></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div id="project-3" class=".main__project--project__container">
+              <div
+                class="project--info flex flex--column flex--align-center flex--justify-center"
+              >
+                <h3 class="margin--top">Flag app</h3>
+                <hr />
+                <p class="project--text">
+                  This was a challenge on the Frontend Mentors challenge
+                  platform which can be found
+                  <a
+                    class="project-reference"
+                    target="_blank"
+                    href="https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca"
+                    >here</a
+                  >. It is a React application that consumes an API provided by
+                  Frontend Mentors. The design file is also provided in PNG
+                  format. Features include consuming the API, a search bar to
+                  search for a country, and a filter bar to filter by region.
+                </p>
+                <div class="flex flex--row flex--align-items-center">
+                  <a
+                    href="https://github.com/HughesSeanKyle/FE-Mentors-Flag-app"
+                    target="_blank"
+                    ><i
+                      title="Github client side code"
+                      class="fab fa-github"
+                      aria-hidden="true"
+                    ></i
+                  ></a>
+                  <a
+                    href="https://fe-mentors-flag-app.vercel.app/"
+                    target="_blank"
+                    ><i
+                      title="Live site"
+                      class="fa fa-globe"
+                      aria-hidden="true"
+                    ></i
+                  ></a>
+                </div>
+              </div>
+              <div class="project--img">
+                <img
+                  src="./img/project-images/12.FE-mentors-flag-app.png"
+                  alt="img"
+                />
+              </div>
+            </div>
+            <div id="project-4" class=".main__project--project__container">
+              <div class="project--img">
+                <img
+                  src="./img/project-images/14.css-dash-odin-project.png"
+                  alt="img"
+                />
+              </div>
+              <div
+                class="project--info flex flex--column flex--align-center flex--justify-center"
+              >
+                <h3 class="margin--top">CSS Dashboard</h3>
+                <hr />
+                <p class="project--text">
+                  This is a CSS dashboard challenge from a platform called The
+                  Odin Project. I wanted to practice my CSS skills and decided
+                  to take on this challenge. It is worth noting that this
+                  project is not mobile-responsive. I plan to use it in a larger
+                  side project I am working on called Bookworks. This project
+                  was built using React.
+                </p>
+                <div class="flex flex--row flex--align-items-center">
+                  <a
+                    href="https://github.com/HughesSeanKyle/project-2-top"
+                    target="_blank"
+                    ><i
+                      title="Github client side code"
+                      class="fab fa-github"
+                      aria-hidden="true"
+                    ></i
+                  ></a>
+                  <a
+                    href="https://creative-moonbeam-bac19b.netlify.app/"
+                    target="_blank"
+                    ><i
+                      title="Live site"
+                      class="fa fa-globe"
+                      aria-hidden="true"
+                    ></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div id="project-5" class=".main__project--project__container">
+              <div
+                class="project--info flex flex--column flex--align-center flex--justify-center"
+              >
+                <h3 class="margin--top">Social Media backend</h3>
+                <hr />
+                <p class="project--text">
+                  This is server-side logic built with Node and Express js. This
+                  builds off the MERN authentication project above and forms
+                  part of a larger application I am working on (Bookworks). This
+                  will be the foundation of my social media NFT application.
+                </p>
+                <div class="flex flex--row flex--align-items-center">
+                  <a
+                    href="https://github.com/HughesSeanKyle/mern-social-media"
+                    target="_blank"
+                    ><i
+                      title="Github client side code"
+                      class="fab fa-github"
+                      aria-hidden="true"
+                    ></i
+                  ></a>
+                </div>
+              </div>
+              <div class="project--img">
+                <img
+                  src="./img/project-images/13.social-media-server-side.png"
+                  alt="project-1"
+                />
+              </div>
+            </div>
+            <div id="project-6" class=".main__project--project__container">
+              <div class="project--img">
+                <img src="./img/project-images/15.bookworks.png" alt="img" />
+              </div>
+              <div
+                class="project--info flex flex--column flex--align-center flex--justify-center"
+              >
+                <h3 class="margin--top">Bookworks</h3>
+                <hr />
+                <p class="project--text">
+                  On the client-side I am using React and Tailwind. For form
+                  validation I am using RHF and Yup. Redux is used for state
+                  management. I have two express micro services deployed to
+                  Render (a bit slow). The first service handles email
+                  validation via a code. The second is a Firebase update
+                  password service using the Firebase Admin SDK. Detailed
+                  features for the app can be found
+                  <a
+                    class="project-reference"
+                    target="_blank"
+                    href="https://github.com/HughesSeanKyle/bookworks-react-vite-migration/blob/main/features.md"
+                    >here</a
+                  >. (Work in progress)
+                </p>
+                <div class="flex flex--row flex--align-items-center">
+                  <a
+                    href="https://github.com/HughesSeanKyle/bookworks-react-vite-migration"
+                    target="_blank"
+                    ><i
+                      title="Github client side code"
+                      class="fab fa-github"
+                      aria-hidden="true"
+                    ></i
+                  ></a>
+                  <a
+                    href="https://bookworks-react-vite-migration.vercel.app/"
+                    target="_blank"
+                    ><i
+                      title="Live site"
+                      class="fa fa-globe"
+                      aria-hidden="true"
+                    ></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- projects end -->
+        <!-- about start -->
+        <section id="about" class="main__about">
+          <h2 class="">About <span class="purple-word">Me</span></h2>
+          <div class="flex flex--column flex--align-center">
+            <h3>Full Stack JavaScript Developer</h3>
+            <p>
+              I'm Kyle, and I love building things on the web. Prior to web
+              development, I worked as a junior accountant. I decided to
+              transition to web development because I recognized the growing
+              shift of businesses into the digital realm. With a strong interest
+              in digital business, I am well-versed in e-commerce. I enjoy
+              analyzing the strengths and weaknesses of online businesses, and I
+              could spend hours delving into e-commerce or crypto-related
+              metrics. I am fully proficient in the MERN stack and possess
+              experience with various other web technologies.
+            </p>
+            <p>
+              I chose web development as a way to channel all the skills I've
+              acquired into a single domain. Blockchain dApp development is a
+              path I am keenly pursuing, as I wholeheartedly believe in the
+              potential of decentralized finance. I am looking forward to
+              connecting with you. Best regards, Kyle.
+            </p>
+            <h3 class="about-h2">Professional Experience</h3>
+            <hr class="main__about--hr" />
+            <div>
+              <h4>Company: Techadon Technologies</h4>
+              <h4>Role: Junior Full Stack Developer</h4>
+              <h4>Start Date: February 14 to December 1, 2022</h4>
+              <h4>
+                Reference:
+                <a
+                  id="about-reference"
+                  target="_blank"
+                  href="https://www.linkedin.com/in/leon-mwandiringa-1024b8114/?originalSubdomain=za"
+                >
+                  Leon Mwandiringa
+                </a>
+              </h4>
+            </div>
+            <hr class="main__about--hr" />
+            <p>
+              At Techadon, my role was multifaceted, encompassing client-side
+              responsibilities such as implementing features like Authentication
+              using AWS Cognito and Amplify. The application's primary objective
+              was to leverage decentralized technologies like Ethers.js and the
+              Ethereum blockchain to create a decentralized wallet solution. The
+              core web app focused on wallet-related functionalities, including
+              sending, receiving, and viewing the balance. I was responsible for
+              implementing these basic wallet features.
+            </p>
+            <p>
+              Additionally, I built an admin dashboard for managing KYC
+              submissions. One of the highlights of this task was implementing
+              graphs using Chart.js and Apex Charts libraries. To populate these
+              graphs with relevant data, I utilized data providers like
+              CoinGecko and various others.
+            </p>
+            <p>
+              On the server-side, my responsibilities included managing user
+              wallet creation, user transactions, and user sending. I used
+              PostgreSQL and the Sequelize ORM for these tasks. Furthermore, I
+              developed KYC upload routes using Express and Node.js, along with
+              gathering market data. I also worked on logic that interacts with
+              the Uniswap API and existing stablecoin smart contracts, such as
+              USDT and DAI.
+            </p>
+          </div>
+        </section>
+        <!-- about end -->
+        <section id="contact" class="main__contact">
+          <h2 class="">Contact <span class="purple-word">Me</span></h2>
+          <div
+            class="main__contact--container flex flex--column flex--align-center flex--justify-center"
+          >
+            <div
+              class="main__contact--img flex flex--row flex--align-center flex--justify-center"
+            >
+              <img src="./img/Skill-Logos/20.gmail.png" alt="gmail" />
+            </div>
+            <div class="main__contact--text">
+              <h3>khughessean01@gmail.com</h3>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- Footer start-->
+      <footer class="footer">
+        <div class="footer__content">
+          <p>© 2023 Kyle Sean Hughes. All rights reserved.</p>
+          <div>
+            <a href="https://twitter.com/phoenix9_9" target="_blank"
+              ><i title="twitter" class="fab fa-twitter" aria-hidden="true"></i
+            ></a>
+            <a
+              href="https://www.freecodecamp.org/Kyle-Sean-Hughes"
+              target="_blank"
+              ><i
+                title="Free Code camp"
+                class="fab fa-free-code-camp"
+                aria-hidden="true"
+              ></i
+            ></a>
+            <a href="https://github.com/HughesSeanKyle" target="_blank"
+              ><i title="Github" class="fab fa-github" aria-hidden="true"></i
+            ></a>
+          </div>
+        </div>
+      </footer>
+      <!-- Footer end-->
+      <script src="./script.js"></script>
+    </div>
+  </body>
+</html>
